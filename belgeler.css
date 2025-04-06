@@ -1,0 +1,226 @@
+
+body{
+  background-color: #0E141C;
+  padding: 1% 1%;
+
+}
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+ 
+
+}
+.search_bar{
+  margin-top: 18rem;
+  position: absolute;
+  left: 48%;
+  
+  
+  
+}
+.search_bar-container{
+  position: relative;
+  width: 79rem;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 1rem 1rem;
+  
+  color: rgb(255, 255, 255);
+  
+}
+.search_bar-container > div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+  
+}
+.search_bar input{
+  background: transparent;
+  margin-left: 0.7rem;
+  padding: 0.5rem 0;
+  width: 100%;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  height: 4vh;
+  border-radius: 20px;
+}
+
+.search_bar input::placeholder {
+  color: rgb(17, 16, 16);
+  
+}
+
+.btn {
+  display: inline-block;
+  width: fit-content;
+  padding: 0.6rem 1.2rem;
+  background-color: rgb(12, 11, 11);
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 3ms;
+  color: rgb(255, 255, 255);
+  height: 4vh;
+  font-size: 15px;
+  
+}
+
+
+
+
+.fa-magnifying-glass{
+  font-size: 3rem;
+  position:fixed;
+  top:21.6%;
+  right: 51.3%;
+  
+}
+
+
+.site-content .pagination{
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  margin: 4rem 0;
+  
+}
+
+.site-content .pagination a{
+  padding: .6rem .9rem;
+  border-radius: 2rem;
+  margin: 0 .3rem;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+.site-content .pagination .pages{
+  background: rgb(255, 255, 255);
+  color: white;
+  
+  
+}
+
+
+.footer-link {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 18px;
+  color:#D7CBB2;
+  font-weight: 600;
+ text-decoration: none;
+  padding: 5px 20px ;
+  background-color: black;
+  border-radius: 90%;
+  
+  
+ 
+}
+
+
+.footer-bottom{
+  position:absolute;
+  top: max-top;
+  width: 90%;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*! responsive start */
+
+@media (max-width:1440px) and (min-width:300px) {
+ body{
+  background-color: #0E141C;
+ }
+  
+ .search_bar-container{
+  background-color: #fdfbfb;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 40px;
+  z-index: 1;
+  
+ }
+.search_bar-container{
+  float: left;
+  background: none;
+  border: none;
+  outline: none;
+  color: #0E141C;
+  font-size: 16px;
+  width: 0;
+  transition: 1s;
+  
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  
+}
+
+.search_bar-container{
+  width: 350px;
+  top: 0%;
+  position: fixed;
+  left: 0%;
+}
+
+
+  .İletişim p{
+      font-size: 1rem;
+      position: relative;
+      top: 2%;
+  }
+  
+  a{
+    color: #D7CBB2;
+  }
+
+  .footer-link {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:#D7CBB2;
+    font-weight: 900;
+   text-decoration: none;
+    padding: 3px 25px ;
+    background-color: black;
+    border-radius: 90%;
+    top:50%;
+    position: relative;
+    top: 3rem;
+    
+    
+    
+   
+  }
+  
+  .footer-bottom{
+    width: max-widht;
+     top:max-top;
+     left: -3%;
+     color: #ffffff;
+     font-size: 13px;
+     padding: 10%;
+    
+     
+     
+ }
+  
+}
+
+/*! responsive end */

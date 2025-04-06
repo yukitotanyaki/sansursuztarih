@@ -1,0 +1,136 @@
+
+body{
+   position: absolute;
+    top: 8%;
+   background-color: #0E141C;
+    left: 40%;
+    width: 50%;
+   
+    
+   
+}
+
+
+
+.card-header{
+   background-color: #041A38;
+    padding: 7% 5%;
+    position: absolute;
+    top: 8%;
+    height: 50%;
+    right: 30%;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 90%;
+    box-shadow:0px 9px 80px #D7CBB2;
+}
+
+
+.Hakkımızda {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    color: #D7CBB2;
+    display: flex;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 19px;
+   
+    
+}
+
+
+
+.Hakkımızda h1{
+   color: #D7CBB2;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: 100;
+    position: absolute;
+    top: -6%;
+    left: 38%;
+    
+}
+
+
+
+.footer-bootom{
+    color: #e9ecf0;
+    text-transform: initial;
+    top:max-top;
+    position: absolute;
+    left: 9%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*! responsive start */
+
+@media (max-width:1440px) and (min-width:300px) {
+    body{
+        position: absolute;
+         top: 0%;
+        background-color: #0E141C;
+         left: 35%;
+         width: 85%;
+         
+         
+        
+     }
+     
+     
+     
+     .card-header{
+        background-color: #041A38;
+         padding: 7% 5%;
+         position: absolute;
+         top: 8%;
+         height: max-content;
+         right: 30%;
+         font-size: 18px;
+         border-radius: 10px;
+         width: 100%;
+         box-shadow:0px 8px 10px #D7CBB2;
+     }
+     
+     .Hakkımızda {
+         height: 100vh;
+         width: 100%;
+         background-size: cover;
+         background-position: center;
+         color: #D7CBB2;
+         display: flex;
+         align-items: center;
+         font-family:'Times New Roman', Times, serif;
+         font-weight: 100;
+         
+        
+         
+     }
+    
+
+
+     .Hakkımızda h1{
+        color: #D7CBB2;
+         font-family:'Times New Roman', Times, serif;
+         font-size: 25px;
+         font-weight: 100;
+         position: absolute;
+         top: min-top;
+         left: 15%;
+         
+     }
+     
+     
+     
+     .footer-bootom{
+         color: #e9ecf0;
+         text-transform: initial;
+         top:max-top;
+         position: absolute;
+         left: 9%;
+         font-family: 'Times New Roman', Times, serif;
+     }
+    }
+ /*! responsive end */

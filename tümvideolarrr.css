@@ -1,0 +1,124 @@
+*
+{margin: 0;
+padding: 0;
+font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background:#0E141C;
+}
+.container{
+    position: absolute;
+    width: 1900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 1%;
+}
+.container .card{
+    width: 1708px;
+    position: relative;
+    height: 900px;
+    background: #041A38;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.5px 10px black;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+    
+}
+h2{
+    color: #D7CBB2;
+}
+p{
+    color: #D7CBB2;
+}
+.container .card .imgBx{
+    position: relative;
+    width: 1510px;
+    height: 510px;
+    top: 10px;
+    left: 97px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 1.2);
+    border-radius: 40px;
+}
+.container .card .imgBx video
+{
+    width: 1500px;
+    border-radius: 70px;
+}
+
+
+
+/*! responsive start */
+
+@media (max-width:1440px) and (min-width:300px) {
+    *
+{margin: 0;
+padding: 0;
+font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background:#0E141C;
+}
+.container{
+    position: absolute;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 1%;
+}
+.container .card{
+    max-width: 508px;
+    position: relative;
+    height: 400px;
+    background: #041A38;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.5px 10px black;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+    
+}
+h2{
+    color: #D7CBB2;
+}
+p{
+    color: #D7CBB2;
+}
+.container .card .imgBx{
+    position: relative;
+    width: 260px;
+    height: 0px;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 1.2);
+}
+.container .card .imgBx video
+{
+    position: absolute;
+    height: 200px;
+    width: 260px;
+    border-radius: 10px;
+    top: 90%;
+    
+}
+
+
+
+     
+}
+ 
+ /*! responsive end */
